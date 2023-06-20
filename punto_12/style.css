@@ -1,0 +1,24 @@
+
+/*Footer información personal*/
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.enlace_git a {
+    text-decoration: none;
+    color: #b80065;
+    font-size: 17px;
+}
+
+.enlace_git a:hover {
+    color: #b89c00;
+    font-size: 120%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
