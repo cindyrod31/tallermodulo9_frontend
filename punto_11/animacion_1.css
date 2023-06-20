@@ -1,0 +1,62 @@
+/*Header general ejercicio*/
+header {
+    background: #343434;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: 5% 0 5% 0;
+}
+/* @keyframes Se especifica cómo cambian gradualmente los estilos de un elemento a lo largo del tiempo, creando efectos animados.*/
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+    }
+
+    50% {
+        background-color: yellow;
+        left: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+    }
+}
+
+/*Footer información personal*/
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.enlace_git a {
+    text-decoration: none;
+    color: #b80065;
+    font-size: 17px;
+}
+
+.enlace_git a:hover {
+    color: #b89c00;
+    font-size: 120%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
