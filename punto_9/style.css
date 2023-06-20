@@ -1,0 +1,60 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*Header general ejercicio*/
+header {
+    background: #343434;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+table{
+    margin: 5% 15% 5% 15%;       
+}
+
+thead{
+    background: #fff700;
+    color: #ff0000;    
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase; 
+}
+
+td, th{
+    background: #fff700;
+    border: 1px dashed #000000;
+    padding: 8px 15px;
+}
+
+#inicio_letra{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*Footer información personal*/
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.enlace_git a {
+    text-decoration: none;
+    color: #b80065;
+    font-size: 17px;
+}
+
+.enlace_git a:hover {
+    color: #b89c00;
+    font-size: 120%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
