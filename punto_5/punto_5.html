@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Punto 5</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio Punto 5</h1>
+    </header>
+    <p class="texto">En el momento en que <span class="texto_subverde"> entiendo verdaderamente </span> a mi <span
+            class="texto_rojo">
+            enemigo</span>, en el momento en que lo <span class="texto_doblesub">entiendo</span> lo suficientemente bien
+        como para <span class="texto_grande">derrotarle</span>, entonces en ese preciso instante, <span
+            class="texto_azul">tambien le</span> <span class="texto_subrojo">quiero</span></p>
+    
+    <!--MEJORA DE CÓDIGO - Se incluyo un boton que se utilizara para que el usuario haga click y cambie a modo oscuro todo el body, adicionalmente se incluyo la función mediante Javascript para habilitar el cambio a modo oscuro del body-->
+
+    <button onclick="myFunction()">Cambiar a Modo Oscuro ☀</button>
+        <script>
+            function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            }
+        </script>
+        
+    <footer>
+        <p class="enlace_git"><a href="https://github.com/cindyrod31/tallermodulo9_frontend/tree/main/punto_5" target="_blank">Haz click aqui para ver los archivos en Github</a></p>
+        <p class="copyright">&copy Copyright Cindy Milena Rodriguez Ruiz <br> rcindy3187@gmail.com</p>
+    </footer>
+</body>
+
+</html>

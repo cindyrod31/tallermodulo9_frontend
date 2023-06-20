@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+/*MEJORA DE CODIGO - Se incluyo un estilo en css para habilitar el cambio a Modo Oscuro*/
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/**/
+
+/*Header general ejercicio*/
+header {
+    background: #343434;
+    padding: 40px;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.texto {
+    text-align: left;
+    margin: 5% 25% 5% 25%;
+    font-size: 18px;
+}
+
+p .texto_subverde {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #40A040;
+}
+
+p .texto_rojo {
+    font-weight: bold;
+    color: #FF0019;
+}
+
+p .texto_doblesub {
+    text-decoration: underline overline;
+}
+
+p .texto_grande {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+p .texto_azul {
+    font-weight: bold;
+    color: #0000FF;
+}
+
+p .texto_subrojo {
+    font-weight: bold;
+    color: #FF0019;
+    text-decoration: underline;
+}
+
+/*MEJORA DE CODIGO - Propiedades de estilo aplicadas al boton de cambiar a modo oscuro*/
+
+button{
+    background-color: #000000;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 30px;    
+}
+
+/**/
+
+/*Footer información personal*/
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.enlace_git a {
+    text-decoration: none;
+    color: #b80065;
+    font-size: 17px;
+}
+
+.enlace_git a:hover {
+    color: #b89c00;
+    font-size: 120%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
