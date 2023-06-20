@@ -1,0 +1,92 @@
+header {
+    background-color: #D6AFDC;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    display: inline-block;
+}
+
+nav a:hover,
+.dropdown:hover {
+    background: blue;
+    border-radius: 10px;
+}
+
+/*MEJORA DE CÓDIGO - Se incluyeron opciones de estilo para la lista*/
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 15px 5px 0;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin: 0 25px 0 10px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #cd90d7;
+}
+
+.show {
+    display: block;
+}
+
+/**/
+
+/*Footer información personal*/
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.enlace_git a {
+    text-decoration: none;
+    color: #b80065;
+    font-size: 17px;
+}
+
+.enlace_git a:hover {
+    color: #b89c00;
+    font-size: 120%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}

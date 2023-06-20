@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--MEJORA DE CÓDIGO - Se incluyo la libreria de font-awesome para incluir un icono en el menu desplegable-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Punto 7</title>
+
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <nav class="menu_p7">
+                <ul>
+                    <li><a href="https://idexud.udistrital.edu.co" target="_blank">Inicio</a></li>
+
+                    <li><a href="https://idexud.udistrital.edu.co/quienes-somos" target="_blank">¿Quienes Somos?</a>
+                    </li>
+                    <li><a href="https://idexud.udistrital.edu.co/#footer_idexud" target="_blank">Contacto</a></li>
+                    <!--MEJORA DE CÓDIGO - Se incluyo un elemento desplegables con varias opciones utilizando una función de javascript-->
+                    <li class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()">Procesos
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                        <li class="dropdown-content" id="myDropdown">
+                            <a href="http://idexud.udistrital.edu.co/procesos/gestion-de-planeacion-estrategica" target="_blank">Procesos Estratégicos</a>
+                            <a href="http://idexud.udistrital.edu.co/procesos/gestion-de-servicios" target="_blank">Procesos Misionales</a>
+                            <a href="http://idexud.udistrital.edu.co/procesos/gestion-de-talento-humano" target="_blank">Procesos De Apoyo</a>
+                        </li>
+                    </li>
+                </ul>
+                <script>
+                    // Cuando el usuario hace clic en el botón, alternar entre ocultar y mostrar el contenido desplegable //
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+
+                    // Cierra el menú desplegable si el usuario hace clic fuera de él.
+                    window.onclick = function (e) {
+                        if (!e.target.matches('.dropbtn')) {
+                            var myDropdown = document.getElementById("myDropdown");
+                            if (myDropdown.classList.contains('show')) {
+                                myDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                </script>
+            </nav>
+        </div>        
+    </header>
+
+    <footer>
+        <!--Se incluye el enlace directo a la carpeta del ejercicio en el repositorio GitHub-->
+        <p class="enlace_git"><a href="https://github.com/cindyrod31/tallermodulo9_frontend/tree/main/punto_7_8"
+                target="_blank">Haz click aqui para ver los archivos en Github</a></p>
+        <p class="copyright">&copy Copyright Cindy Milena Rodriguez Ruiz <br> rcindy3187@gmail.com</p>
+    </footer>
+
+</body>
+
+</html>
