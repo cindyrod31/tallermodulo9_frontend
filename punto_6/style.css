@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+}
+
+/*Header general ejercicio*/
+header {
+    background: #343434;
+    padding: 40px;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+div {
+    text-align: left;
+    margin: 5% 20% 5% 20%;
+}
+
+h2,h3,h4 {
+    font-size: 60px;
+}
+
+.titulo_2 {
+    color: yellow;
+}
+
+/*MEJORA DE CÓDIGO - Al pasar el mouse sobre el texto cambia de color*/
+
+.titulo_2:hover {
+    color: hotpink;
+}
+
+.titulo_3 {
+    color: purple;
+}
+
+/*MEJORA DE CÓDIGO - Al pasar el mouse sobre el texto cambia de color*/
+
+.titulo_3:hover {
+    color: blue;
+}
+
+/*Footer información personal*/
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.enlace_git a {
+    text-decoration: none;
+    color: #b80065;
+    font-size: 17px;
+}
+
+.enlace_git a:hover {
+    color: #b89c00;
+    font-size: 120%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
