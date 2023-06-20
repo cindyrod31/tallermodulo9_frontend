@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header general ejercicio*/
+header {
+    background: #343434;
+    padding: 40px;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+/*Texto azul*/
+
+.soy_azul {
+    font-size: 50px;
+    color: #1c03fc;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* Mejora de codigo - se oculta el texto adicional para que sea visible unicamente al hacer hover sobre el titulo "Soy Azul"*/
+
+.hide_1 {
+    display: none;
+}
+
+.soy_azul:hover+.hide_1 {
+    display: block;
+    color: #1c03fc;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/**/
+
+/*Texto rojo*/
+.soy_rojo {
+    font-size: 50px;
+    color: #fc1303;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* Mejora de codigo - se oculta el texto adicional para que sea visible unicamente al hacer hover sobre el titulo "Soy Rojo"*/
+.hide_2 {
+    display: none;
+}
+
+.soy_rojo:hover+.hide_2 {
+    display: block;
+    color: #fc1303;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+}
+
+/**/
+/*Footer información personal*/
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.enlace_git a {
+    text-decoration: none;
+    color: #b80065;
+    font-size: 17px;
+}
+
+.enlace_git a:hover {
+    color: #b89c00;
+    font-size: 120%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
